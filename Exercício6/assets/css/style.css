@@ -1,0 +1,45 @@
+:root {
+  --primary: #acb842;
+  --secundary: #8d3342;
+}
+body {
+  background: var(--primary);
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-size: 1.6rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+.container {
+  background-color: #fff;
+  width: 50%;
+  border-radius: 20px;
+  margin: 40px auto;
+  text-align: center;
+}
+.content {
+  padding: 20px;
+}
+
+#contador {
+  font-size: 2em;
+}
+
+button {
+  background: var(--primary);
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 10em;
+  height: 2em;
+  transition: all 1s ease;
+}
+button:hover {
+  background: var(--secundary);
+}
+
+.pausado {
+  color: #a82929;
+}
